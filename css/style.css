@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 30px;
+  line-height: 1.4;
+}
+li {
+  list-style: none;
+}
+
+/* navbar */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li {
+  background: #781616;
+  border-radius: 50%;
+  margin: 0.75rem;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+#navbar ul li:hover {
+  background: #961d1d;
+  transform: scale(1.1);
+  transition: all ease-in 0.3s;
+}
+#navbar ul li i {
+  font-size: 30px;
+  text-align: center;
+  padding: 7px;
+}
+
+#navbar ul li > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar ul li a {
+  margin: 10px 2px;
+}
+
+/* image */
+#show-case {
+  height: 500px;
+  background-image: url("/img/bill-oxford-OXGhu60NwxU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* -webkit-filter: grayscale(100%); */
+}
+
+/* central content */
+.center-content {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.center-content p {
+  text-align: justify;
+}
+
+/* display content */
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#container .display-content {
+  background: #781616;
+  padding: 20px;
+  margin: 20px 0;
+  flex-basis: 980px;
+  color: #fff;
+}
+.display-content p {
+  margin: 1rem;
+}
+
+.content-list {
+  padding: 20px 0 20px 20px;
+  margin: 20px 0;
+}
+
+.list-services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-services ul li {
+  padding: 0.25rem;
+}
+
+.footer-class {
+  background: #781616;
+  color: #fff;
+  padding: 0 2rem;
+}
+.footer-class p {
+  padding: 1.75rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.footer-class .footer-services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-services ul {
+  display: flex;
+}
+
+.footer-services ul:not(:last-child) li {
+  padding: 1.75rem;
+}
+
+.footer-class .social-media ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-class .social-media ul li {
+  padding: 0.5rem;
+}
