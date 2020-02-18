@@ -77,6 +77,10 @@ li {
   text-align: justify;
 }
 
+.center-content .second-p {
+  margin-top: 10px;
+}
+
 /* display content */
 #container {
   display: flex;
